@@ -1,0 +1,10 @@
+{
+  "modules": true,
+  "plugins": {
+   "precss": {},
+   "postcss-custom-properties": {},
+    "autoprefixer": {
+      "grid": true
+    }
+  }
+}
