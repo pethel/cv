@@ -1,0 +1,34 @@
+.avatar {
+  background: #3F565F;
+  padding: 2rem;
+  header {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  h1,
+  h2 {
+    flex-basis: 100%;
+    margin: 0;
+    text-align: center;
+  }
+
+  h2 {
+    opacity: 0.6;
+  }
+}
+
+.picture {
+  display: flex;
+  justify-content: center;
+  img {
+    display: block;
+    border-radius: 50%;
+    max-width: 7rem;
+    max-height: 7rem;
+    width: auto;
+    height: auto;
+    border: 3px solid white;
+    margin-bottom: 1rem;
+  }
+}

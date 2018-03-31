@@ -1,8 +1,7 @@
 {
   "modules": true,
   "plugins": {
-   "precss": {},
-   "postcss-custom-properties": {},
+    "precss": {},
     "autoprefixer": {
       "grid": true
     }

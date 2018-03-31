@@ -25,7 +25,9 @@ body {
 }
 
 .container {
-  background: #F4F4F4;
   min-height: 100vh;
-  padding: 3.125rem;
+  @media (min-width: 800px){
+    padding: 3.125rem;
+    background: #F4F4F4;
+  }
 }

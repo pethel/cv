@@ -1,0 +1,18 @@
+.icon {
+  display: inline-block;
+  text-indent: -9999px;
+}
+
+.md {
+  width: 1rem;
+  height: 1rem;
+  background-size: 1rem 1rem;
+}
+
+.email {
+  background-image: url(../../img/icons/email.svg);
+}
+
+.phone {
+  background-image: url(../../img/icons/phone.svg);
+}
