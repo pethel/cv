@@ -7,7 +7,7 @@ const Icon = ({ className, type, size = 'md'}) => <span className={cn(className,
 
 Icon.propTypes = {
   className: PropTypes.string,
-  type: PropTypes.oneOf(['email']).isRequired,
+  type: PropTypes.oneOf(['email', 'phone']).isRequired,
   size: PropTypes.oneOf(['md']),
   spacerRight: PropTypes.oneOf(['md'])
 };
