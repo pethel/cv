@@ -1,0 +1,33 @@
+.qualifications {
+  h1 {
+    margin: 0;
+    font-size: 1rem;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    display: inline-block;
+    margin-right: 0.5rem;
+    &:not(:last-child):after {
+      content: ','
+    }
+  }
+}
+
+.score {
+  display: inline-block;
+  width: 0.75rem;
+  height: 0.75rem;
+  margin-right: 0.5rem;
+  border: 1px solid var(--sidebar-main-color);
+  border-radius: 50%;
+}
+
+.score2 {
+  background: var(--sidebar-main-color);
+}

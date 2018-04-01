@@ -1,0 +1,28 @@
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  h1 {
+    font-size: 1rem;
+    margin: 0;
+  }
+}
+
+
+.toolList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  li {
+    display: inline-block;
+    &:not(:last-child):after {
+      margin-right: 0.3rem;
+      content: ',';
+    }
+  }
+}
+
+.time {
+  color: var(--sidebar-main-color);
+  opacity: 0.8;
+}

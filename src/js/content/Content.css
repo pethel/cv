@@ -1,0 +1,8 @@
+.content {
+  padding: 4rem;
+
+  h1 {
+    color: var(--sidebar-main-color);
+    margin-top: 0;
+  }
+}
