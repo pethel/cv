@@ -14,9 +14,10 @@ const WorkingExperience = ({ name, title, text, from, to = '' }) => (
   <section className={styles.workingExperience}>
     <header>
       <div className={styles.topRow}>
-        <h1>{name} <span className={styles.title}>- {title}</span></h1>
+        <h1>{name}</h1>
         <span className={styles.time}>{formatPeriod(from, to)}</span>
       </div>
+      <span className={styles.title}>{title}</span>
     </header>
     <p>{text}</p>
   </section>
