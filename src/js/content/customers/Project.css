@@ -26,3 +26,7 @@
   color: var(--sidebar-main-color);
   opacity: 0.8;
 }
+
+.toolListTitle {
+  color: var(--sidebar-main-color);
+}

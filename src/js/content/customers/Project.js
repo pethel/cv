@@ -17,7 +17,8 @@ const Project = ({ className, name, text, from, to = '', tools = [] }) => (
       <span className={styles.time}>{formatPeriod(from, to)}</span>
     </div>
     <p>{text}</p>
-    <div>Teknologier og verktøy: <ul className={styles.toolList}>{tools.map(tool => <li key={tool}>{tool}</li>)}</ul></div>
+    <span className={styles.toolListTitle}>Teknologier og verktøy:</span>
+    <ul className={styles.toolList}>{tools.map(tool => <li key={tool}>{tool}</li>)}</ul>
   </section>
 );
 

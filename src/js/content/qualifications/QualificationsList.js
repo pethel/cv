@@ -4,11 +4,12 @@ import styles from './QualificationsList.css';
 
 const QualificationsList = () => (
   <section>
+    <h1>Kvalifikasjoner</h1>
     <Qualifications className={styles.list} title="Frontend" score={9} skills={[
       'Javascript',
       'CSS',
       'HTML',
-      'React',
+      'Testing',
       'Redux',
       'AngularJS',
       'LESS/SASS/PostCSS',
