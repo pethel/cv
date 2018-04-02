@@ -1,8 +1,8 @@
 const name = 'Ekpressfortolling';
 
-const text = `Flyttad øver som frontend lead från brukarflateprosjektet. 
-Løsningen er ett sytem som muligjør for transporter att køra øver grensen til Sverige direkt hvis alla papir er i orden på forhand.
-Mikrotjenste arkitektur med en ektern for selvbetjening og en intern for tollarna.`;
+const text = `Flyttad øver som lead på frontend fra brukarflateprosjektet beskrevet nedan. 
+Løsningen er ett sytem som muligjør for næringslivet att køra øver grensen til Sverige direkt hvis alla papir er i orden på forhand.
+Restbasert mikrotjenstearkitektur med en klient for selvbetjening og en intern for tollarna.`;
 
 const tools = [
   'React',
@@ -13,7 +13,7 @@ const tools = [
   'Sinon',
   'webpack',
   'yarn',
-  'JIRA',
+  'Jira',
   'Confluence',
   'Docker',
   'Jenkins',

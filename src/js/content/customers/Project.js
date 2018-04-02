@@ -1,25 +1,21 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import cn from 'classnames';
-import styles from './Project.css';
-
-const formatPeriod = (from, to) => {
-  if(from === to) {
-    return from
-  }
-  return `(${from} - ${to})`;
-};
+import { formatPeriod, Text, HeaderRow, InlineList, Block } from '../../common';
 
 const Project = ({ className, name, text, from, to = '', tools = [] }) => (
-  <section className={cn(className)}>
-    <div className={styles.title}>
-      <h1>{name}</h1>
-      <span className={styles.time}>{formatPeriod(from, to)}</span>
-    </div>
+  <Block type="article" marginBottom="bottomLG">
+    <header>
+      <HeaderRow
+        left={<Text size="sm" noMargin>
+          <h1>{name}</h1>
+        </Text>}
+        rigth={<Text size="sm" alternateColor>
+          <span>{formatPeriod(from, to)}</span>
+        </Text>} />
+    </header>
     <p>{text}</p>
-    <span className={styles.toolListTitle}>Teknologier og verktøy:</span>
-    <ul className={styles.toolList}>{tools.map(tool => <li key={tool}>{tool}</li>)}</ul>
-  </section>
+    <InlineList title="Teknologier og verktøy" list={tools}/>
+  </Block>
 );
 
 Project.propTypes = {

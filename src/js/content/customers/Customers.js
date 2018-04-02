@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from './Customers.css';
 import Customer from './Customer';
 import Project from './Project'
+import { Text, Block } from '../../common';
 import {
   brukerflate,
   ekpressfortolling,
@@ -17,16 +17,19 @@ import {
 } from './data';
 
 const getProject = ({ name, text, from, to, tools }) =>
-  <Project className={styles.project}
-           name={name}
+  <Project name={name}
            text={text}
            from={from}
            to={to}
            tools={tools} />;
 
 const Customers = () => (
-  <section>
-    <h1>Kunder</h1>
+  <Block type="section">
+    <header>
+      <Text size='xl'>
+        <h1>Kunder og Prosjekter</h1>
+      </Text>
+    </header>
     <Customer name="Toll">
       {getProject(ekpressfortolling)}
       {getProject(brukerflate)}
@@ -50,7 +53,7 @@ const Customers = () => (
     <Customer name="EDB ErgoGroup">
       {getProject(esporing)}
     </Customer>
-  </section>
+  </Block>
 );
 
 export default Customers;

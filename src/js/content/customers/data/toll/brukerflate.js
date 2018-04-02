@@ -1,6 +1,6 @@
 const name = 'Ny brukerfalte';
 
-const text = `Løsningen bestod av en microfrontend arkitektur med forskjelliga register over feks. kunder, 
+const text = `Løsningen bestod av en micro-frontend arkitektur med forskjelliga register over feks. kunder, 
 myndigheter, poststeder og land. Kom in på prosjektet efter anbefallning.
 Huvudansvaret var frontend men fikk også laget en mikrotjenste for kjøretøyregistret.
 Også en del jobbing med Docker og Jenkins. Lagade script for og automatiskt flytta issues i Jira vid release`;

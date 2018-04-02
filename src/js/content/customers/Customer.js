@@ -1,10 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from './Customer.css';
+import { Text } from '../../common';
 
 const Customer = ({ name, children }) => (
-  <article className={styles.customer}>
-    <h1>{name}</h1>
+  <article>
+    <header>
+      <Text size="md">
+        <h1>{name}</h1>
+      </Text>
+    </header>
     {children}
   </article>
 );

@@ -1,0 +1,27 @@
+.noMargin {
+  margin: 0;
+}
+
+.xs {
+  font-size: 0.9rem;
+}
+
+.sm {
+  font-size: 1rem;
+}
+
+.md {
+  font-size: 1.25rem;
+}
+
+.lg {
+  font-size: 1.5rem;
+}
+
+.xl {
+  font-size: 1.75rem;
+}
+
+.alternateColor {
+  color: #666666;
+}

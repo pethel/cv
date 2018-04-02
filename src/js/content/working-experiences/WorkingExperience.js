@@ -1,26 +1,20 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from './WorkingExperience.css';
-
-const formatPeriod = (from, to) => {
-  if (from === to) {
-    return from
-  }
-  return `(${from} - ${to})`;
-};
-
+import { Block, Text, HeaderRow, formatPeriod } from '../../common';
 
 const WorkingExperience = ({ name, title, text, from, to = '' }) => (
-  <section className={styles.workingExperience}>
+  <Block type="section">
     <header>
-      <div className={styles.topRow}>
-        <h1>{name}</h1>
-        <span className={styles.time}>{formatPeriod(from, to)}</span>
-      </div>
-      <span className={styles.title}>{title}</span>
+      <HeaderRow
+        left={<Text size="md">
+          <h1>{name}</h1>
+        </Text>}
+        rigth={<Text size="sm" alternateColor><span>{formatPeriod(from, to)}</span></Text>}>
+      </HeaderRow>
+      <span>{title}</span>
     </header>
     <p>{text}</p>
-  </section>
+  </Block>
 );
 
 WorkingExperience.propTypes = {
