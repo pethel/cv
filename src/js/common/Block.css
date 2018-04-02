@@ -9,3 +9,15 @@
 .bottomLG {
   margin-bottom: 2rem;
 }
+
+.leftSM {
+  padding-left: 0.5rem;
+}
+
+.leftMD {
+  padding-left: 1rem;
+}
+
+.leftLG {
+  padding-left: 2rem;
+}

@@ -8,9 +8,9 @@ import Profile from './profile'
 const Content = () => (
   <main className={styles.content}>
     <Profile />
-    <Customers />
-    <Certifications />
     <WorkingExperiences />
+    <Certifications />
+    <Customers />
   </main>
 );
 

@@ -6,7 +6,7 @@ import { capra, itverket } from './data';
 const WorkingExperiences = () => (
   <Block type="section">
     <header>
-      <Text>
+      <Text size="xl">
         <h1>Arbeidserfaring</h1>
       </Text>
     </header>

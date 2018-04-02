@@ -9,7 +9,7 @@ const WorkingExperience = ({ name, title, text, from, to = '' }) => (
         left={<Text size="md">
           <h1>{name}</h1>
         </Text>}
-        rigth={<Text size="sm" alternateColor><span>{formatPeriod(from, to)}</span></Text>}>
+        right={<Text size="sm" alternateColor><span>{formatPeriod(from, to)}</span></Text>}>
       </HeaderRow>
       <span>{title}</span>
     </header>

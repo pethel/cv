@@ -3,13 +3,15 @@ import PropTypes from 'prop-types';
 import { formatPeriod, Text, HeaderRow, InlineList, Block } from '../../common';
 
 const Project = ({ className, name, text, from, to = '', tools = [] }) => (
-  <Block type="article" marginBottom="bottomLG">
+  <Block type="article"
+         marginBottom="bottomLG"
+         indentLeft="leftMD">
     <header>
       <HeaderRow
         left={<Text size="sm" noMargin>
           <h1>{name}</h1>
         </Text>}
-        rigth={<Text size="sm" alternateColor>
+        right={<Text size="sm" alternateColor>
           <span>{formatPeriod(from, to)}</span>
         </Text>} />
     </header>

@@ -10,7 +10,7 @@ const Education = () => (
       <OrderedList>
         <li>
           <h2>Master of Science i informatikk</h2>
-          Umeå universitet<br/>2005 - 2010
+          Umeå universitet<br/>2008 - 2010
         </li>
         <li>
           <h2>Bachelor of Science i elektronikk</h2>
