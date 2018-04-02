@@ -7,9 +7,9 @@ import BlockRow from './BlockRow';
 const Contact = () => (
   <Block>
     <BlockRow>
-      <a href="mailto:phe@alternus.no">
+      <a href="mailto:peter.hellstrand83@mail.com">
         <Icon type="email" className={styles.icon}/>
-        <span>phe@alternus.no</span>
+        <span>peter.hellstrand83@mail.com</span>
       </a>
     </BlockRow>
     <BlockRow>
