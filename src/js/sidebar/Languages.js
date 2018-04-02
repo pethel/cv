@@ -1,5 +1,4 @@
 import React from 'react';
-import SecondaryText from './SecondaryText';
 import Block from './Block';
 import BlockRow from './BlockRow';
 import OrderedList from './OrderedList';
@@ -9,9 +8,9 @@ const Languages = () => (
     <h1>Språk</h1>
     <BlockRow>
       <OrderedList>
-        <li>Svensk <SecondaryText>(morsmål)</SecondaryText></li>
-        <li>Norsk <SecondaryText>(flytende)</SecondaryText></li>
-        <li>Engelsk <SecondaryText>(flytende)</SecondaryText></li>
+        <li>Svensk (morsmål)</li>
+        <li>Norsk (flytende)</li>
+        <li>Engelsk (flytende)</li>
       </OrderedList>
     </BlockRow>
   </Block>

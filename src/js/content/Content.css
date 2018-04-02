@@ -1,7 +1,13 @@
 .content {
-  padding: 4rem;
+  padding: 1rem;
 
-  h1 {
+  @media screen and (min-width: 800px) {
+    padding: 2rem;
+  }
+
+  h1,
+  h2,
+  h3 {
     color: var(--sidebar-main-color);
     margin-top: 0;
   }
