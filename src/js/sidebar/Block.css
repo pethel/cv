@@ -1,6 +1,6 @@
 .container {
   padding: 1.5rem 2rem 0;
-  background: var(--sidebar-main-color);
+  background: var(--mainColor);
 
   &:last-of-type {
      padding-bottom: 1rem;

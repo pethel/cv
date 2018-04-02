@@ -1,5 +1,5 @@
 .avatar {
-  background: #3F565F;
+  background: var(--mainColorDarker);
   padding: 2rem;
   header {
     display: flex;
@@ -21,6 +21,7 @@
 .picture {
   display: flex;
   justify-content: center;
+
   img {
     display: block;
     border-radius: 50%;
@@ -32,3 +33,4 @@
     margin-bottom: 1rem;
   }
 }
+

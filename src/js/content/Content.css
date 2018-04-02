@@ -8,7 +8,7 @@
   h1,
   h2,
   h3 {
-    color: var(--sidebar-main-color);
+    color: var(--mainColor);
     margin-top: 0;
   }
 }

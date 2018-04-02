@@ -1,9 +1,18 @@
 {
   "modules": true,
   "plugins": {
+    "cssnano": {},
     "precss": {},
-    "autoprefixer": {
-      "grid": true
+    "postcss-cssnext": {
+      "browsers": "last 2 versions",
+      "features": {
+        "customProperties": {
+          "variables": {
+            "mainColor": "#4D6A76",
+            "mainColorDarker": "#3F565F"
+          }
+        }
+      }
     }
   }
 }

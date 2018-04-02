@@ -24,10 +24,10 @@
   width: 0.75rem;
   height: 0.75rem;
   margin-right: 0.5rem;
-  border: 1px solid var(--sidebar-main-color);
+  border: 1px solid var(--mainColor);
   border-radius: 50%;
 }
 
 .score2 {
-  background: var(--sidebar-main-color);
+  background: var(--mainColor);
 }

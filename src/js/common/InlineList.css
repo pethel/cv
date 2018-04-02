@@ -16,6 +16,6 @@
 }
 
 .title {
-  color: var(--sidebar-main-color);
+  color: var(--mainColor);
   margin-right: 0.5rem;
 }
