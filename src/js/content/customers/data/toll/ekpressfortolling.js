@@ -1,8 +1,9 @@
 const name = 'Ekpressfortolling';
 
-const text = `Flyttad øver som lead på frontend fra brukarflateprosjektet beskrevet nedan. 
-Løsningen er ett sytem som muligjør for næringslivet att køra øver grensen til Sverige direkt hvis alla papir er i orden på forhand.
-Restbasert mikrotjenstearkitektur med en klient for selvbetjening og en intern for tollarna.`;
+const text = `Lead på frontend fra brukerflateprosjektet beskrevet under. 
+Løsningen er et sytem som muligjør for transportselskaper å kjøre over grensen fra Sverige uten stopp 
+for kontrollering av papirer og last dersom alle papirer er sendt inn på forhånd. 
+Restbasert mikrotjenestearkitektur med en klient for selvbetjening og en intern for tollerne.`;
 
 const tools = [
   'React',

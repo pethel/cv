@@ -1,9 +1,9 @@
 const name = 'Ny brukerfalte';
 
-const text = `Løsningen bestod av en micro-frontend arkitektur med forskjelliga register over feks. kunder, 
-myndigheter, poststeder og land. Kom in på prosjektet efter anbefallning.
-Huvudansvaret var frontend men fikk også laget en mikrotjenste for kjøretøyregistret.
-Også en del jobbing med Docker og Jenkins. Lagade script for og automatiskt flytta issues i Jira vid release`;
+const text = `Løsningen bestod av en micro-frontend arkitektur med forskjelliga registre over feks. 
+kunder, myndigheter, poststeder og land. Kom inn på prosjektet efter anbefaling. 
+Hovedansvaret var frontend men utviklet også selvstendig hele mikrotjenester backend. 
+Jeg var også involvert i DevOps med Openshift, Docker, Jenkins Pipelines og automatisering mot Jira.`;
 
 const tools = [
   'React',

@@ -1,6 +1,6 @@
 const name = 'itverket';
 
-const text = `Jobbar på TOLL sedan ansettelsen.`;
+const text = `Jobbet på TOLL siden ansettelsen.`;
 
 const title = 'Seniorkonsulent';
 

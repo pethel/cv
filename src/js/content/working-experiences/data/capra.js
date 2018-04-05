@@ -1,7 +1,8 @@
 const name = 'Capra Consulting';
 
-const text = `Jobbet for privata og statliga bedrifter i forskjelliga roller som utvikkler og tech lead. 
-Var gott involvert i utformning av rekryteringsprossesen. Hade også mentorroller og kurser for nyansatta.`;
+const text = `Jobbet for private og statlige bedrifter i forskjellige roller som utvikler og tech lead. 
+Var mye involvert i utforming og gjennomføring av rekrutteringsprosessen. 
+Hadde også mentorroller og kurser for nyansatta.`;
 
 const title = 'Seniorkonsulent';
 
