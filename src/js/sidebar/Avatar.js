@@ -8,7 +8,7 @@ const Avatar = () =>
     </div>
     <header>
       <h1>Peter Hellstrand</h1>
-      <h2>Webutvikkler</h2>
+      <h2>Webutvikler</h2>
     </header>
   </div>;
 

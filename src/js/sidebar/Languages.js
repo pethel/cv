@@ -9,7 +9,7 @@ const Languages = () => (
     <BlockRow>
       <OrderedList>
         <li>Svensk (morsmål)</li>
-        <li>Norsk (Proffesionelt)</li>
+        <li>Norsk (Profesjonelt)</li>
         <li>Engelsk (flytende)</li>
       </OrderedList>
     </BlockRow>
