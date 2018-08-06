@@ -1,8 +1,8 @@
 const name = 'Kundeutbytte';
 
-const text = `Utvikkling av løsningen for utbetalning av kundeutbytte. 
-Vart med 2 ganger (2014, 2016). Førsta gången skulle løsningen øver på ny design. Andra gången blev jag ønsket tilbaka av Gjensidige stiftelsen. 
-Jag bad da om medel for att få skriva om løsningen fra XSLT til React/Redux vilket beviljades. Kodebasen er nå modern og testbar.`;
+const text = `Utvikling av løsningen for utbetaling av kundeutbytte. Var med 2 ganger (2014, 2016). Første gangen skulle løsningen over på nytt design. 
+Andre gangen ble jeg ønsket tilbake av gjensidige-stiftelsen. Jeg tok initiativ til å få skrive om løsningen fra XSLT til React/Redux, og dette ble akseptert.
+Kodebasen er nå moderne og testbar.`;
 
 const tools = [
   'React',
@@ -22,3 +22,4 @@ export default {
   from: '2014',
   to: '2016'
 }
+

@@ -1,8 +1,8 @@
 const name = 'Ny Nettbutikk';
 
 const text = `Omskrivning av løsning også skrevet i AngularJS. 
-Løsningen var lagad i India og kvaliten var undermålig så en omskrivning var nødvendig. 
-Gjensidige satt sammen ett team av erfarne utvikkler og løsningen skrevs om med fokus på kvalite og testbarhet.`;
+Løsningen var utviklet i India og kvaliteten var middelmådig så en omskrivning var nødvendig. 
+Gjensidige satt sammen et team av erfarne utviklere, og løsningen ble omskrevet med fokus på kvalitet og testbarhet.`;
 
 const tools = [
   'AngularJS',

@@ -1,7 +1,7 @@
 const name = 'Bable';
 
-const text = `En chat bot vars syfte vara att gøra den ellers kompliserade kjøpsprossesen av bilforsikring enklare, 
-for framførallt unge. Løsningen bestod av en React/Redux app med Enonic CMS som data kilde.`;
+const text = `En chat bot hvis førmål var å gjøre den ellers kompliserte kjøpsprosessen for bilforsikring enklere, spesielt for unge. 
+Løsningen best av en React/Redux-app med Enonic CMS som datakilde.`;
 
 const tools = [
   'React',
